@@ -1,128 +1,105 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+	BimLogo,
+	CDGOLogo,
+	ConsultlyLogo,
+	ParabolLogo
+} from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Sanketh Chebbi",
+  initials: "SC",
+  location: "Bangalore, KA, India",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full stack Quant SWE. Engineer. Enthusiast. Theoretical Math & Physics Fanatic.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I'm young and energetic. When you work with me, you get someone who's super enthusiastic, always curious, and determined to solve problems the right way. I value resourcefulness, a strong sense of ownership, high agency, clear communication, and a 'founder mode'—qualities I look for in others and always strive to embody myself. generalist > specialist. mind > matter. To mars 🚀",
+  avatarUrl: "https://sankethchebbi.github.io/images/profile.png",
+  personalWebsiteUrl: "https://sanketh.in",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "sanketh@duck.com",
+    tel: "+919739885400",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/sankethchebbi",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/sankethchebbi/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/sankethchebbi",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "PES Universty",
+      degree: "Bachelor's Degree in Mechanical Engineering.",
+      start: "2020",
+      end: "2024",
     },
   ],
-  work: [
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
+	work: [
+	{
+      company: "Indian Space Research Organisation - ISTRAC",
+      link: "https://www.isro.gov.in/ISTRAC.html",
+      badges: ["On-site"],
+      title: "Scientist Engineer Intern",
       logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+			start: "2024",
+			end: "2024",
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "I automated the design of the Back-up structure of a Reflector Parabolic Antenna using Galapagos and Grasshopper, optimizing for efficiency using Genetic Algorithm - less deflection and more stiffness. Additionally, I developed new truss analysis software in Python, enhancing structural analysis capabilities using numerical methods like SMM - Stiffness Matrix Method. I also conducted EDA on departmental and project budgets, providing valuable insights for better resource management.",
+		},
+		{
+      company: "Blackspades",
+      link: "https://blackspades.pages.dev",
+      badges: ["Self Employed"],
+      title: "Generalist",
+      logo: ConsultlyLogo,
+			start: "2023",
+			end: "2024",
+      description:
+        "Founded a small company with my friends from uni to consult startups on AI, marketing and content creation. Pivoted midway to start a fund to invest in hype and sneakers for my mates in college. Both failed but learned a lot and made a lot of friends and memories.",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Mainstreet Marketplace",
+      link: "https://mainstreet.co.in",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "CRM Tech Lead",
+      logo: ConsultlyLogo,
+			start: "2023",
+			end: "2023",
+      description:
+        "Worked on building out a robust CRM platform. I also built a data site using React and Bootstrap, pulled in data from the shopify storefront APIs and made a unified platform for our team members to work on. for ex: updating the delivery or procurement status of a product.",
+    },
+    {
+      company: "Groww",
+      link: "https://groww.in",
+      badges: ["On-site"],
+      title: "SDE Intern",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "2022",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "I worked on the iOS app of Groww using React Native. I got to work on problems like Dynamic Font Scaling in React Native and migrating our codebase from Redux to Redux Toolkit. Learning about the working of React Native under the hood, State management in React, aligning UI components, JS code obfuscation and more, I got to tinker around the space a lot.",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "C++",
+    "React/VueJS",
+    "Rust",
+    "OCaml",
+    "PostgreSQL",
+		"AWS",
+		"Prompt Engineering",
   ],
   projects: [
     {
@@ -142,133 +119,7 @@ export const RESUME_DATA = {
         href: "https://parabol.co/",
       },
     },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
+
     {
       title: "Bim",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
